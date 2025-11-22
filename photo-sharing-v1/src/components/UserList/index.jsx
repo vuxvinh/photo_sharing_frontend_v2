@@ -20,7 +20,7 @@ function UserList() {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
-    fetchModel("https://zdw3q5-8081.csb.app/api/user/list")
+    fetchModel("https://ppw3tv-8081.csb.app/api/user/list")
       .then((data) => {
         setUsers(data);
       })

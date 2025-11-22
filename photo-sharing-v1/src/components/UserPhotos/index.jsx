@@ -9,7 +9,7 @@ function UserPhotos() {
   const [photos, setPhotos] = useState([]);
 
   useEffect(() => {
-    fetchModel(`https://zdw3q5-8081.csb.app/api/photo/photosOfUser/${userId}`)
+    fetchModel(`https://ppw3tv-8081.csb.app/api/photo/photosOfUser/${userId}`)
       .then((data) => {
         console.log('Photos data:', data); // Debug log
         setPhotos(data);
